@@ -22,12 +22,26 @@ h1{
 }
 
 .line{
-  height: 250px;
+  height: 200px;
+  margin-top: 40px;
 }
+
+
 
 .card{
   background-image: url(../img/pattern.png);
   background-size: contain;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  height: 200px;
+  width: 130px;
+}
+
+.scoperta{
   display: inline-block;
   background-color: white;
   border: 1px solid black;
@@ -45,10 +59,18 @@ img{
   width: 90px;
 }
 
+.visibile{
+  display: inline-block;
+}
+
 h2{
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
   display: none;
+}
+
+.testo-visibile{
+  display: inline-block;
 }
 
 .card:hover img{
