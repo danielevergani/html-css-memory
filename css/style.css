@@ -18,6 +18,7 @@ h1{
 
 h2{
   display: inline-block;
+  margin-top: 20px;
 }
 
 .container{
@@ -31,12 +32,16 @@ h2{
 .card{
   display: inline-block;
   background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
   height: 200px;
   width: 130px;
 }
 
 img{
-  height: 100px;
-  width: 70px;
-  
+  margin-top: 20px;
+  height: 120px;
+  width: 90px;
 }
