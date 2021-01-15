@@ -22,7 +22,7 @@ h1{
 }
 
 .line{
-  /* height: 200px; */
+  height: 200px;
   margin-top: 40px;
 }
 
@@ -70,7 +70,7 @@ h2{
 }
 
 .testo-visibile{
-  color: yellow;
+  color: orange;
 }
 
 .card:hover img{
