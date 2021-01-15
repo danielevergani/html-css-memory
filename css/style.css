@@ -53,38 +53,39 @@ h1{
 }
 
 img{
-  /* visibility */
-  opacity: 0;
+  visibility: hidden;
   margin-top: 20px;
   height: 120px;
   width: 90px;
 }
 
 .visibile{
-  opacity: 1;
   display: inline-block;
+  visibility: visible;
 }
 
 h2{
+  color: purple;
+  visibility: hidden;
   display: inline-block;
-  color: rgba(1,1,1,0);
 }
 
 .testo-visibile{
   color: orange;
+  visibility: visible;
 }
 
 .card:hover img{
-  opacity: 1;
-  display: inline-block;
+  visibility: visible;
 }
 
 .card:hover h2{
-  color: purple;
+  visibility: visible;
 }
 
 .card:hover{
   background-image: none;
+  cursor: pointer;
 }
 
 footer{
