@@ -16,10 +16,6 @@ h1{
   color: white
 }
 
-h2{
-  display: inline-block;
-  margin-top: 10px;
-}
 
 .container{
   text-align: center;
@@ -43,7 +39,22 @@ h2{
 }
 
 img{
+  display: none;
   margin-top: 20px;
   height: 120px;
   width: 90px;
+}
+
+h2{
+  display: inline-block;
+  margin-top: 10px;
+  display: none;
+}
+
+.card:hover img{
+  display: inline-block;
+}
+
+.card:hover h2{
+  display: inline-block;
 }
