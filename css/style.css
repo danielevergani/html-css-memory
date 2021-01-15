@@ -30,6 +30,8 @@ h2{
 }
 
 .card{
+  background-image: url(../img/pattern.png);
+  background-size: contain;
   display: inline-block;
   background-color: white;
   border: 1px solid black;
